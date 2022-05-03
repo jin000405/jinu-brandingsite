@@ -463,10 +463,6 @@ button:hover:after {
   width: 250px;
   height: 250px;
 }
-.section{
-  height:100vh;
-  border:10px solid;
-}
 .section-1-actived .cwave {
   background-color: #3db2ff;
 }
