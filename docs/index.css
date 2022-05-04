@@ -297,6 +297,9 @@ li {
 .chart-detail > h3{
   display:flex;
   justify-content:center;
+  font-weight:700;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 .chart-detail > h4{
   font-weight: 300;
