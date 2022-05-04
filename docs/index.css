@@ -190,6 +190,8 @@ li {
 }
 .pf-txt h2{
   font-weight: 700;
+  margin-bottom: 10px;
+    margin-top: 10px;
 }
 .pf-txt h3{
   font-weight: 300;
