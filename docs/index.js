@@ -177,3 +177,19 @@ $(".section").each(function (index, el) {
     }
   });
 });
+$(window).resize(function() { 
+  if($(window).width() < 1100) {
+    $(".chart").circleProgress({
+          size: 100,
+      thickness: 3
+        });
+  }
+});
+$(window).resize(function() { 
+  if($(window).width() > 1100) {
+    $(".chart").circleProgress({
+          size: 200,
+      thickness: 17,
+        });
+  }
+});
