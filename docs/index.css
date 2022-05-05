@@ -1377,6 +1377,8 @@ button:hover:after {
 #main,#porfile,#Posility,#skill,#pf,#work,#contact {
     display: none;
   }
+  .box-1{
+  display:none;}
   .moblie{
     display:block;
   }
