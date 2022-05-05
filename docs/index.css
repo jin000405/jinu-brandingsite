@@ -190,8 +190,6 @@ li {
 }
 .pf-txt h2{
   font-weight: 700;
-  margin-bottom: 10px;
-    margin-top: 10px;
 }
 .pf-txt h3{
   font-weight: 300;
@@ -299,9 +297,6 @@ li {
 .chart-detail > h3{
   display:flex;
   justify-content:center;
-  font-weight:700;
-  margin-top:10px;
-  margin-bottom:10px;
 }
 .chart-detail > h4{
   font-weight: 300;
@@ -374,7 +369,22 @@ li {
   font-size:16px;
   font-weight:200;
 }
-
+#pf .swiper-button-next{
+  position:absolute;
+  top: 744px;
+  left: 935px;
+}
+#pf .swiper-button-prev{
+  position:absolute; 
+  top: 744px;
+    left: 824px;
+}
+#pf .swiper-pagination{
+  position:absolute;
+  top:780px; 
+  left:800px;
+  width:180px;
+}
 .pf-detail-box-2{
   display:flex;
 }
@@ -719,6 +729,7 @@ button:hover:after {
 /*active 상태일 때 opacity 1 을 줘서 화면에 노출 */
 .timeline_box.active {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .ps-img {
@@ -1124,8 +1135,6 @@ button:hover:after {
   #porfile h2{
     font-weight: 700;
     font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
   }
   #porfile h3{
     font-weight: 300;
@@ -1257,31 +1266,34 @@ button:hover:after {
     display: flex;
     text-align: center;
 }
-  .swiper-button-next{
+#pf .swiper-button-next{
     position: absolute;
     top: 633px;
     left: 732px;
 }
-  .swiper-button-prev{
+#pf .swiper-button-prev{
     
     position: absolute;
     top: 633px;
     left: 673px;
   }
-  .swiper-pagination{
+#pf .swiper-pagination{
     
     position: absolute;
     top: 677px;
     left: 651px;
     width: 132px;
   }
-  .timeline_box:nth-child(2) .img_wrap {
+ .timeline_box:nth-child(2) .img_wrap {
     width: 561px;
     height: 50px;
     top: -173px;
     position: absolute;
     left: 51px;
 }
+  .timeline_box{
+    pointer-events:none;
+  }
   
   .img_wrap a {
     font-size: 191px;
