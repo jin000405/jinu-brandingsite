@@ -305,7 +305,7 @@ li {
 }
 /* pf */
 #pf{
-  background-image:url(https://cdn.jsdelivr.net/gh/jin000405/jinu-brandingsite/docs/img/pfbgggg.png);
+  background-image:url(https://cdn.jsdelivr.net/gh/jin000405/jinu-brandingsite/docs/img/port.png);
   background-repeat: no-repeat;
   width:1920px;
   height:1080px; 
@@ -1084,6 +1084,9 @@ button:hover:after {
 
 /* 테블릿 1100*/
 @media ( max-width:1100px ) {
+  .moblie{
+    display:none;
+  }
   #main MARQUEE{
    font-size:8rem;
   }
@@ -1372,6 +1375,12 @@ button:hover:after {
 /* 모바일  768>a>0*/
 @media ( max-width: 768px ) {
 #main,#porfile,#Posility,#skill,#pf,#work,#contact {
+    display: none;
+  }
+  .moblie{
+    display:block;
+  }
+  header{
     display: none;
   }
 }
