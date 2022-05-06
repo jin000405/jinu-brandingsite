@@ -1369,7 +1369,7 @@ button:hover:after {
     height: 240px;
 }
   .pos-line{
-  style="line-height:15px;"
+  line-height:15px;
   }
 }
 /* 모바일  768>a>0*/
