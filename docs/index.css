@@ -19,6 +19,9 @@ svg {
   animation: dash 13s linear alternate infinite;
   animation-fill-mode: forwards;
 }
+ .moblie{
+    display:none;
+  }
 @keyframes dash {
   from {
     stroke-dashoffset: 0;
