@@ -1389,3 +1389,8 @@ button:hover:after {
     display: none;
   }
 }
+.main-box{
+  position:absolute;
+  top: 30%;
+  left: 33%;
+}
